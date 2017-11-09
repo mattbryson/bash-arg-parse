@@ -12,9 +12,9 @@ To run the example...
 $ ./arg_parse_example -h
 usage: arg_parse_example -a AN_ARG -s SOME_MORE_ARGS [-y YET_MORE_ARGS || -h]
 
-  -a | --an_arg            : The path to the original ipa file to be resigned
-  -s | --some_more_args    : The path to the provisioning profile
-  -y | --yet_more_args     : The identiy/name of the signing certifiate installed in keychain
+  -a | --an_arg            : A super special argument
+  -s | --some_more_args    : Another argument
+  -y | --yet_more_args     : An optional argument
   -h | --help              : This message
 ````
 
